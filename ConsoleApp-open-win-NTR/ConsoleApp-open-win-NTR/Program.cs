@@ -10,55 +10,57 @@ namespace ConsoleApp_open_win_NTR
     {
         static void Main(string[] args)
         {
+            // Start
 
-            var multiDimensionalList = new List<List<string>>{
-                    new List<string>{"A","B","C"},
-                    new List<string>{"D","E","F"},
-                    new List<string>{"G","H","I"},
-                };
-            //var roMult = multiDimensionalList.AsReadOnly();
-            Console.WriteLine(multiDimensionalList.Count);
-            multiDimensionalList.Add(new List<string> { "Aa", "Bs", "Cd" });
-            Console.WriteLine(multiDimensionalList.Count);
-            Console.WriteLine("+++");
-            Console.WriteLine(multiDimensionalList[0][1]);
-            Console.WriteLine(multiDimensionalList[1][1]);
-            Console.WriteLine(multiDimensionalList[2][1]);
-            Console.WriteLine(multiDimensionalList[3][1]);
+            const string host = "vk.com";
+            Console.WriteLine("Please stand by");
 
+            var tabletracert = TraceRoute.GetTraceRoute(host);
+            List<string> reTabletracert = new List<string>(); // Делаем свой list что-бы знать длину+ меням тип.
 
-            // Начало
+            foreach (IPAddress i in tabletracert)
+            {
+                string ip = Convert.ToString(i); // convert type Ipaddres(TraceRoute) for String.
+                reTabletracert.Add(ip); // Add for list ip
+                Console.WriteLine(ip);
+            }
 
-            //const string host = "vk.com";
-            //Console.WriteLine("Please stand by");
+            // Create a list for RoundtripTime.
+            // Создание списка для RoundtripTime по количеству хопов.
+            var multiDynamicRoundtripTimeList = new List<List<string>> { };
+            for (int i = 0; i < reTabletracert.Count; i++)
+            {
+                multiDynamicRoundtripTimeList.Add(new List<string> { });
+            }
 
-            //var tabletracert = TraceRoute.GetTraceRoute(host);
-            //List<string> reTabletracert = new List<string>(); // Делаем свой list что-бы знать длину+ меням тип.
+            // Цикл для постоянного пинга по очереди. async будет потом следующий версиях.
+            while (true)
+            {   int count = 0;
+                foreach (string i in reTabletracert)
+                {
+                    IcmpPing ping = new IcmpPing();
+                    PingReply result = ping.IcmpRequest(i);
+                    multiDynamicRoundtripTimeList[count].Add($"{result.RoundtripTime}");
 
-            //foreach (IPAddress i in tabletracert)
-            //{
-            //    string ip = Convert.ToString(i); // convert type Ipaddres(TraceRoute) for String.
-            //    reTabletracert.Add(ip); // Add for list ip
-            //    Console.WriteLine(ip);
-            //}
+                    Console.Clear(); // Clear CMD
+                    Console.WriteLine(result.Address);
+                    Console.WriteLine($"Задержка: {result.RoundtripTime}");
+                    Console.WriteLine("++++++++++++++++++++++++");
 
-            //while (true)
-            //{
-            //    foreach (string i in reTabletracert)
-            //    {
-            //        IcmpPing ping = new IcmpPing();
-            //        PingReply result = ping.IcmpRequest(i);
-            //        Console.Clear();
-            //        Console.WriteLine(result.Address);
-            //        Console.WriteLine($"Задержка: {result.RoundtripTime}");
-            //        Console.WriteLine("++++++++++++++++++++++++");
-            //        Thread.Sleep(2000);
+                    // Перебор для вывода list с задержками ping
+                    Console.WriteLine("History RoundtripTime: ");
+                    for(int j = 0; j<multiDynamicRoundtripTimeList[count].Count; j++)
+                    {
+                        Console.Write($"{multiDynamicRoundtripTimeList[count][j]}ms ");
+                    }
 
-            //    }
-            //}
+                    count++; // count
+                    Thread.Sleep(2000); // сделал задержу в 2сек специально пока что.
 
-            // Конец
+                }
+            }
 
+            // End
         }
     }
 }
