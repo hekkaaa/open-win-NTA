@@ -13,3 +13,4 @@ D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debu
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ref\ConsoleApp-open-win-NTR.dll
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.pdb
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.genruntimeconfig.cache
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.csproj.AssemblyReference.cache
