@@ -28,10 +28,17 @@ namespace ConsoleApp_open_win_NTR.Network
             while(count <= 4)
             {
                 IcmpPing ping = new IcmpPing();
-                PingReply result = ping.IcmpRequest(this.host, 3000);
-
-                if (result.Status.ToString().ToLower() == "Success".ToLower()) { count++; successfully++; } // Сделать тут лог
-                else { count++; fail++; }   // Сделать тут лог
+                try
+                {
+                    PingReply result = ping.IcmpRequest(this.host, 3000);
+                    if (result.Status.ToString().ToLower() == "Success".ToLower()) { count++; successfully++; } // Сделать тут лог
+                    else { count++; fail++; }   // Сделать тут лог
+                }
+                catch(PingException ex)
+                {
+                    Console.WriteLine(ex.Message + "Остуствует подключение к интернету, либо адрес не существует");
+                    break;
+                }
                 Thread.Sleep(1000);
             }
             
