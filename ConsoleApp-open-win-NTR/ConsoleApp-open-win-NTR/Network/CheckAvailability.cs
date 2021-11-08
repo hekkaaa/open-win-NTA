@@ -10,22 +10,23 @@ namespace ConsoleApp_open_win_NTR.Network
 {
     public class CheckAvailability
     {
-       string host;
+        string host;
+        string message = "OK";
 
-       public CheckAvailability(string host)
+        public CheckAvailability(string host)
         {
-            this.host = host;  
+            this.host = host;
         }
 
         public bool CheckStatus()
         {
             // Подсчет сделан для отладочной информации в лог.
             // Counting is done for debug information in the log.
-            int fail = 0; 
+            int fail = 0;
             int successfully = 0;
             int count = 0;
 
-            while(count <= 4)
+            while (count <= 4)
             {
                 IcmpPing ping = new IcmpPing();
                 try
@@ -34,28 +35,30 @@ namespace ConsoleApp_open_win_NTR.Network
                     if (result.Status.ToString().ToLower() == "Success".ToLower()) { count++; successfully++; } // Сделать тут лог
                     else { count++; fail++; }   // Сделать тут лог
                 }
-                catch(PingException ex)
+                catch (PingException ex)
                 {
                     Console.WriteLine(ex.Message + "Остуствует подключение к интернету, либо адрес не существует");
+                    this.message = ex.Message + "Остуствует подключение к интернету, либо адрес не существует";
                     break;
                 }
                 Thread.Sleep(1000);
             }
-            
-            if(successfully > 1)
+
+            if (successfully > 1)
             {
                 return true;
             }
             else
             {
+                this.message = "Остуствует подключение к интернету, либо адрес не существует";
                 return false;
+
             }
         }
 
-        public static bool Units(int m)
+        public string Info
         {
-            return true;
+            get { return this.message; }
         }
-
     }
 }
