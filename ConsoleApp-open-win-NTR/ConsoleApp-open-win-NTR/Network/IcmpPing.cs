@@ -10,7 +10,7 @@ namespace ConsoleApp_open_win_NTR
     public class IcmpPing
     {
         public PingReply IcmpRequest(string hosname)
-        {
+        {   // Здесь нужно сделать ссылку на конструктор ниже
             Ping ping = new Ping();
             PingReply res = ping.Send(hosname, 1000);
             return res;

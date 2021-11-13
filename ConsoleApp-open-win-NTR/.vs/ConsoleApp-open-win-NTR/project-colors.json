@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a219e155-a63d-4aae-9329-986e35070320": {
+      "ProjectGuid": "a219e155-a63d-4aae-9329-986e35070320",
+      "DisplayName": "ConsoleApp-open-win-NTR",
+      "ColorIndex": 0
+    },
+    "e9a327f4-0532-4fee-baf9-a50e5f582bbf": {
+      "ProjectGuid": "e9a327f4-0532-4fee-baf9-a50e5f582bbf",
+      "DisplayName": "ConsoleApp-open-win-NTR.Tests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
