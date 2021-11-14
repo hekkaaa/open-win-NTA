@@ -1,4 +1,9 @@
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.csproj.AssemblyReference.cache
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.AssemblyInfoInputs.cache
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.AssemblyInfo.cs
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.csproj.CoreCompileInputs.cache
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\bin\Debug\net6.0\testhost.dll
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\bin\Debug\net6.0\ConsoleApp-open-win-NTR.deps.json
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\bin\Debug\net6.0\ConsoleApp-open-win-NTR.runtimeconfig.json
@@ -94,11 +99,6 @@ D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\bi
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\bin\Debug\net6.0\ConsoleApp-open-win-NTR.pdb
-D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.csproj.AssemblyReference.cache
-D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.GeneratedMSBuildEditorConfig.editorconfig
-D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.AssemblyInfoInputs.cache
-D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.AssemblyInfo.cs
-D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.csproj.CoreCompileInputs.cache
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.csproj.CopyComplete
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ConsoleApp-open-win-NTR.Tests.dll
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR.Tests\obj\Debug\net6.0\ref\ConsoleApp-open-win-NTR.Tests.dll

@@ -2,7 +2,7 @@
 
 namespace ConsoleApp_open_win_NTR.Base
 {
-    internal class BaseIp
+    public class BaseIp
     {
         public string Ip { get; set; }
         public int Port { get; set; }

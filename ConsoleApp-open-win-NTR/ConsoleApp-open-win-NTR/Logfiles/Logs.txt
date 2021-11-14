@@ -1,0 +1,84 @@
+21:39:43 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Success
+-------------------------------
+21:39:44 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Success
+-------------------------------
+21:39:45 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Success
+-------------------------------
+21:39:46 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Success
+-------------------------------
+21:39:47 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Success
+-------------------------------
+21:39:48 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Host available
+-------------------------------
+21:40:00 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | TimedOut
+-------------------------------
+21:40:02 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | TimedOut
+-------------------------------
+21:40:04 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | TimedOut
+-------------------------------
+21:40:06 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | TimedOut
+-------------------------------
+21:40:08 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | TimedOut
+-------------------------------
+21:42:01 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Failed
+-------------------------------
+21:42:05 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Failed
+-------------------------------
+21:42:09 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Failed
+-------------------------------
+21:42:13 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Failed
+-------------------------------
+21:42:17 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Failed
+-------------------------------
+21:42:18 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Остуствует подключение к интернету, либо адрес не существует
+-------------------------------
+21:42:40 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Success
+-------------------------------
+21:42:41 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Success
+-------------------------------
+21:42:42 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Success
+-------------------------------
+21:42:44 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Success
+-------------------------------
+21:42:45 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Success
+-------------------------------
+21:42:46 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | 192.168.0.102: Host available
+-------------------------------
+21:42:54 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | Host 192.168.0.102 TimedOut
+-------------------------------
+21:42:56 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | Host 192.168.0.102 TimedOut
+-------------------------------
+21:42:58 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | Host 192.168.0.102 TimedOut
+-------------------------------
+21:43:00 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | Host 192.168.0.102 TimedOut
+-------------------------------
+21:43:02 14 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | Host 192.168.0.102 TimedOut
+-------------------------------

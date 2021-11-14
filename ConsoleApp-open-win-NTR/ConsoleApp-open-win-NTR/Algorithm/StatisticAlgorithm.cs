@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp_open_win_NTR.Algorithm
 {
-    internal static class StatisticAlgorithm
+    public static class StatisticAlgorithm
     {
 
 

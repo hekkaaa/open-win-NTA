@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.NetworkInformation;
+using System.Reflection;
 using System.Threading;
 
 namespace ConsoleApp_open_win_NTR.Base
@@ -67,7 +68,6 @@ namespace ConsoleApp_open_win_NTR.Base
             }
         }
 
-
         private void LoopStatistics(List<Base.BaseIp> list)
         {
             while (true)
@@ -87,19 +87,25 @@ namespace ConsoleApp_open_win_NTR.Base
                     }
                     else if (result.Status == IPStatus.DestinationHostUnreachable)
                     {
-                        ip.counterPacket++;
-                        ip.counterLossPacket++;
-                        /* throw new Exception($"Host {result.Address}: DestinationHostUnreachable") ;*/
-                    }
-                    else if (result.Status == IPStatus.TtlExpired) throw new Exception($"Host {result.Address}: TtlExpired");
-                    else if (result.Status == IPStatus.TimedOut)
-                    { /*throw new Exception($"Host {result.Address}: TimedOut")*/
-                        // <= Основная ошибка когда хост перестает отвечать вдруг. Тут считать потери.
+                        Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | Host {result.Address} {result.Status}");
                         ip.counterPacket++;
                         ip.counterLossPacket++;
 
                     }
-                    else Console.WriteLine($"FAIL: {result.Status}");
+                    else if (result.Status == IPStatus.TtlExpired)
+                    {
+                        Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | Host {result.Address}: TtlExpired");
+                        throw new Exception($"Host {result.Address}: TtlExpired");
+                    }
+                    else if (result.Status == IPStatus.TimedOut)
+                    { /*throw new Exception($"Host {result.Address}: TimedOut")*/
+                        // <= Основная ошибка когда хост перестает отвечать вдруг. Тут считать потери.
+                        Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | Host {result.Address} {result.Status}");
+                        ip.counterPacket++;
+                        ip.counterLossPacket++;
+
+                    }
+                    else Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | Host {result.Address} {result.Status}");
 
                     // Вычиялем % потерь.
                     var algLosses = Algorithm.StatisticAlgorithm.RateLosses(ip.counterPacket, ip.counterLossPacket);

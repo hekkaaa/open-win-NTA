@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net.NetworkInformation;
+using System.Reflection;
 using System.Threading;
 
 namespace ConsoleApp_open_win_NTR.Network
@@ -28,13 +29,19 @@ namespace ConsoleApp_open_win_NTR.Network
                 try
                 {
                     PingReply result = ping.IcmpRequest(this.host, 3000);
-                    if (result.Status.ToString().ToLower() == "Success".ToLower()) { count++; successfully++; } // Сделать тут лог
-                    else { count++; fail++; }   // Сделать тут лог
+                    if (result.Status.ToString().ToLower() == "Success".ToLower()) 
+                    { 
+                        count++;
+                        successfully++;
+                        Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | {host}: Success");
+                    }
+                    else { count++; fail++; Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | {host}: Failed"); }   // Сделать тут лог
                 }
                 catch (PingException ex)
                 {
                     Console.WriteLine(ex.Message + "Остуствует подключение к интернету, либо адрес не существует");
                     this.message = ex.Message + "Остуствует подключение к интернету, либо адрес не существует";
+                    Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | {host}: {this.message}");
                     break;
                 }
                 Thread.Sleep(1000);
@@ -42,11 +49,13 @@ namespace ConsoleApp_open_win_NTR.Network
 
             if (successfully > 1)
             {
+                Logs.LogAppend.Log($"{ Assembly.GetExecutingAssembly().Location} | { host}: Host available");
                 return true;
             }
             else
             {
                 this.message = "Остуствует подключение к интернету, либо адрес не существует";
+                Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | {host}: {this.message}");
                 return false;
 
             }
