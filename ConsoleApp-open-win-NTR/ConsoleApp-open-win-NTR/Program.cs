@@ -4,13 +4,14 @@ using System.Net;
 using System.Net.NetworkInformation;
 using System.Threading;
 
+
 namespace ConsoleApp_open_win_NTR
 {
     class Program
     {
         static void Main(string[] args)
         {   // "192.168.0.22" // "ya.ru" // "nocodeurl.com"
-            const string host = "192.168.0.102";
+            const string host = "ya.ru";
 
 
             void Test_Main_Circle(string host)
@@ -22,8 +23,8 @@ namespace ConsoleApp_open_win_NTR
 
                 Console.WriteLine("Please stand by");
 
-                List<IPAddress> tabletracert = (List<IPAddress>)TraceRoute.GetTraceRoute(host);
-                List<string> reTabletracert = tabletracert.ConvertAll(s => s.ToString()); // Делаем свой list что-бы знать длинну +меням тип.
+                List<IPAddress> tableTracert = (List<IPAddress>)TraceRoute.GetTraceRoute(host);
+                List<string> reTabletracert = tableTracert.ConvertAll(s => s.ToString()); // Делаем свой list что-бы знать длинну + меням тип.
 
 
                 // Create a list for RoundtripTime.
@@ -72,17 +73,7 @@ namespace ConsoleApp_open_win_NTR
                 // End
             }
 
-            Network.CheckAvailability testHost = new Network.CheckAvailability(host);
-            Console.WriteLine(testHost.CheckStatus());
-
-            if (testHost.CheckStatus())
-            {
-                Test_Main_Circle(host);
-            }
-            else
-            {
-                Console.WriteLine(testHost.Info);
-            }
+            Base.BaseLoop t1 = new Base.BaseLoop(host);
 
         }
     }

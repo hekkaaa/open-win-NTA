@@ -10,17 +10,27 @@ namespace ConsoleApp_open_win_NTR
     public class IcmpPing
     {
         public PingReply IcmpRequest(string hosname)
-        {   // Здесь нужно сделать ссылку на конструктор ниже
-            Ping ping = new Ping();
-            PingReply res = ping.Send(hosname, 1000);
-            return res;
+        {
+            return IcmpRequestMethod(hosname);
         }
 
         public PingReply IcmpRequest(string hosname, int timeout)
         {
+            return IcmpRequestMethod(hosname, timeout);
+
+        }
+
+        internal void IcmpRequest()
+        {
+            throw new NotImplementedException();
+        }
+
+
+        private PingReply IcmpRequestMethod(string hosname, int timeout)
+        {
             Ping ping = new Ping();
-           
-            try 
+
+            try
             {
                 PingReply res = ping.Send(hosname, timeout);
                 return res;
@@ -33,12 +43,24 @@ namespace ConsoleApp_open_win_NTR
             {
                 throw new Exception("New Error" + ex.Message);
             }
-           
         }
 
-        internal void IcmpRequest()
+        private PingReply IcmpRequestMethod(string hosname)
         {
-            throw new NotImplementedException();
+            Ping ping = new Ping();
+            try
+            {
+                PingReply res = ping.Send(hosname, 1000);
+                return res;
+            }
+            catch (PingException)
+            {   // тут нужно доработать обработку exception
+                throw new PingException("host unreachable");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("New Error" + ex.Message);
+            }
         }
     }
 }

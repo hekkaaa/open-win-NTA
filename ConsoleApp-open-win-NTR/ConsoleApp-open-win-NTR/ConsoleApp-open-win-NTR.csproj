@@ -6,4 +6,8 @@
     <RootNamespace>ConsoleApp_open_win_NTR</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
 </Project>
