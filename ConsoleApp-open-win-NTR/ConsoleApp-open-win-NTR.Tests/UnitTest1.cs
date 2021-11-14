@@ -21,5 +21,6 @@ namespace ConsoleApp_open_win_NTR.Tests
             Network.CheckAvailability test = new Network.CheckAvailability(host);
             Assert.AreEqual(expected, test.CheckStatus());
         }
+
     }
 }

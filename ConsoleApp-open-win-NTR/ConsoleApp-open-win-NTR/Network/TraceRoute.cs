@@ -6,7 +6,7 @@ using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp_open_win_NTR
+namespace ConsoleApp_open_win_NTR.Network
 {
     class TraceRoute
     {
