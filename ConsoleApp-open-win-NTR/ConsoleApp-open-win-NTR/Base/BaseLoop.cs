@@ -30,7 +30,10 @@ namespace ConsoleApp_open_win_NTR.Base
             }
             else
             {
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Red; 
                 Console.WriteLine(startLoop.Info);
+                Console.ResetColor();
             }
 
         }

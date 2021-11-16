@@ -12,7 +12,9 @@ namespace ConsoleApp_open_win_NTR
     {
         static void Main(string[] args)
         {   // "192.168.0.22" // "ya.ru" // "nocodeurl.com"
-            const string host = "ya.ru";
+            //const string host = "ya.ru";
+            Console.Write("Введите IP или hostname: ");
+            string host = Console.ReadLine();
             Base.BaseLoop start = new Base.BaseLoop(host);
         }
     }

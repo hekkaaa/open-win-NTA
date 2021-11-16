@@ -39,8 +39,7 @@ namespace ConsoleApp_open_win_NTR.Network
                 }
                 catch (PingException ex)
                 {
-                    Console.WriteLine(ex.Message + "Отсутствует  подключение к интернету, либо адрес не существует");
-                    this.message = ex.Message + "Отсутствует  подключение к интернету, либо адрес не существует";
+                    this.message = ex.Message + " Отсутствует  подключение к интернету, либо адрес не существует.";
                     Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | {host}: {this.message}");
                     break;
                 }
@@ -54,7 +53,7 @@ namespace ConsoleApp_open_win_NTR.Network
             }
             else
             {
-                this.message = "Отсутствует  подключение к интернету, либо адрес не существует";
+                this.message = "Отсутствует  подключение к интернету, либо адрес не существует.";
                 Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | {host}: {this.message}");
                 return false;
 
