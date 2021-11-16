@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp_open_win_NTR.Network
 {

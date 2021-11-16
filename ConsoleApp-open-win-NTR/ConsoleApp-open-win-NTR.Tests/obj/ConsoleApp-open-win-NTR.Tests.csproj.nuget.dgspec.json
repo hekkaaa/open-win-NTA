@@ -4,6 +4,132 @@
     "D:\\GitWork\\open-win-NTA\\ConsoleApp-open-win-NTR\\ConsoleApp-open-win-NTR.Tests\\ConsoleApp-open-win-NTR.Tests.csproj": {}
   },
   "projects": {
+    "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\ClassLibrary\\ClassLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\ClassLibrary\\ClassLibrary.csproj",
+        "projectName": "ClassLibrary",
+        "projectPath": "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\ClassLibrary\\ClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\Laise\\.nuget\\packages\\",
+        "outputPath": "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\ClassLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR.csproj",
+        "projectName": "Test-Winform_open_win_NTR",
+        "projectPath": "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR.csproj",
+        "packagesPath": "C:\\Users\\Laise\\.nuget\\packages\\",
+        "outputPath": "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Laise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\ClassLibrary\\ClassLibrary.csproj"
+              },
+              "D:\\GitWork\\open-win-NTA\\ConsoleApp-open-win-NTR\\ConsoleApp-open-win-NTR\\ConsoleApp-open-win-NTR.csproj": {
+                "projectPath": "D:\\GitWork\\open-win-NTA\\ConsoleApp-open-win-NTR\\ConsoleApp-open-win-NTR\\ConsoleApp-open-win-NTR.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\GitWork\\open-win-NTA\\ConsoleApp-open-win-NTR\\ConsoleApp-open-win-NTR.Tests\\ConsoleApp-open-win-NTR.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,6 +158,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR.csproj": {
+                "projectPath": "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR\\Test-Winform_open_win_NTR.csproj"
+              },
               "D:\\GitWork\\open-win-NTA\\ConsoleApp-open-win-NTR\\ConsoleApp-open-win-NTR\\ConsoleApp-open-win-NTR.csproj": {
                 "projectPath": "D:\\GitWork\\open-win-NTA\\ConsoleApp-open-win-NTR\\ConsoleApp-open-win-NTR\\ConsoleApp-open-win-NTR.csproj"
               }
@@ -47,24 +176,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.9.4, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.1, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[3.17.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -75,11 +186,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
@@ -111,7 +217,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\ClassLibrary\\ClassLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

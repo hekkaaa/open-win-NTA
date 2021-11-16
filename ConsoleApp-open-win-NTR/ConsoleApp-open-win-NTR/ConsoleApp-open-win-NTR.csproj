@@ -10,4 +10,8 @@
     <Folder Include="Logfiles\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Develop\.Net\Test-Winform_open_win_NTR\ClassLibrary\ClassLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

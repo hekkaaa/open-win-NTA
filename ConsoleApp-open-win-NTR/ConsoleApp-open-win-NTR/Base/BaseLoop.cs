@@ -59,12 +59,13 @@ namespace ConsoleApp_open_win_NTR.Base
             return list;
         }
 
-        // Заполням все экзепмляры класса через свойство Ip  
+        // Заполняет все экземпляры класса через свойство Ip  
         private void FillingPropertyBaseIp(List<Base.BaseIp> list)
         {
             for (int i = 0; i < _ipList.Count; i++)
             {
                 list[i].Ip = _ipList[i];
+                list[i].HostName = Network.DnsInfo.DnsHostname(_ipList[i]);
             }
         }
 
@@ -107,33 +108,12 @@ namespace ConsoleApp_open_win_NTR.Base
                     }
                     else Logs.LogAppend.Log($"{Assembly.GetExecutingAssembly().Location} | Host {result.Address} {result.Status}");
 
-                    // Вычиялем % потерь.
-                    var algLosses = Algorithm.StatisticAlgorithm.RateLosses(ip.counterPacket, ip.counterLossPacket);
-
-                    //// Тестовый интерфейс
-
-                    Console.Clear(); // Clear CMD
-                    Console.WriteLine(result.Address);
-                    Console.WriteLine($"Последняя Задержка: {result.RoundtripTime}");
-                    Console.WriteLine($"Всего отправленных пакетов: {ip.counterPacket}");
-                    Console.WriteLine($"Потерянных пакетов: {ip.counterLossPacket}");
-                    Console.WriteLine($"Процент потерь: {algLosses:f2}");
-                    Console.WriteLine($"Min ping {ip.minPing}");
-                    Console.WriteLine($"Max ping {ip.maxPing}");
-                    Console.WriteLine($"Средняя задержка ping {ip.middlePing}");
-                    Console.WriteLine("++++++++++++++++++++++++");
-
-                    // Перебор для вывода с задержками ping 
-                    Console.WriteLine("History RoundtripTime: ");
-                    for (int j = 0; j < ip.PingDelay.Count; j++)
-                    {
-                        Console.Write($"{ip.PingDelay[j]}ms ");
-                    }
-
-                    Thread.Sleep(1000); // сделал задержу в 2сек специально пока что.
-
-                    //// END
+                    // Вычисляем % потерь.
+                    ip.percentLoss = Algorithm.StatisticAlgorithm.RateLosses(ip.counterPacket, ip.counterLossPacket);
+                    Thread.Sleep(200); // сделал задержу в 0.2 сек специально пока что.
                 }
+                View.ViewConsole view = new View.ViewConsole(list);
+               
             }
         }
     }

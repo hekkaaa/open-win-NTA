@@ -12,8 +12,8 @@ namespace ConsoleApp_open_win_NTR
     {
         static void Main(string[] args)
         {   // "192.168.0.22" // "ya.ru" // "nocodeurl.com"
-            const string host = "192.168.0.102";
-            Base.BaseLoop t1 = new Base.BaseLoop(host);
+            const string host = "ya.ru";
+            Base.BaseLoop start = new Base.BaseLoop(host);
         }
     }
 }

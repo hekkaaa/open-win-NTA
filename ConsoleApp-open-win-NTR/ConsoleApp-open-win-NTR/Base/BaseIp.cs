@@ -6,6 +6,7 @@ namespace ConsoleApp_open_win_NTR.Base
     {
         public string Ip { get; set; }
         public int Port { get; set; }
+        public double percentLoss { get; set; }
 
         public int minPing { get; set; }
         public int middlePing { get; set; }
