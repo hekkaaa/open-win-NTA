@@ -25,3 +25,15 @@ D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debu
 3:56:39 17 ноября 2021 г.
 D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | ывфыфв: Отсутствует  подключение к интернету, либо адрес не существует.
 -------------------------------
+20:44:13 17 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | sdada: host unreachable Отсутствует  подключение к интернету, либо адрес не существует.
+-------------------------------
+20:44:13 17 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | sdada: Отсутствует  подключение к интернету, либо адрес не существует.
+-------------------------------
+20:55:42 17 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | asdsad: host unreachable Отсутствует  подключение к интернету, либо адрес не существует.
+-------------------------------
+20:55:42 17 ноября 2021 г.
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll | asdsad: Отсутствует  подключение к интернету, либо адрес не существует.
+-------------------------------

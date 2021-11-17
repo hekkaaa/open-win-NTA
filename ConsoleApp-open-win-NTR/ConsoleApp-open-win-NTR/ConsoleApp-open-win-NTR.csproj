@@ -5,6 +5,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>ConsoleApp_open_win_NTR</RootNamespace>
     <ApplicationIcon>pcnetwork_102250.ico</ApplicationIcon>
+    <FileVersion>1.4</FileVersion>
+    <AssemblyVersion>2</AssemblyVersion>
+    <Product>OpenWinNTR</Product>
+    <Copyright>Pototsky Aleksandr</Copyright>
+    <Authors>Pototsky Aleksandr</Authors>
+    <PackageProjectUrl>https://github.com/hekkaaa/open-win-NTA/releases</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hekkaaa/open-win-NTA/releases</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleApp-open-win-NTR")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Pototsky Aleksandr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Pototsky Aleksandr")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.4")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ConsoleApp-open-win-NTR")]
+[assembly: System.Reflection.AssemblyProductAttribute("OpenWinNTR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleApp-open-win-NTR")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/hekkaaa/open-win-NTA/releases")]
 
 // Создано классом WriteCodeFragment MSBuild.
 
