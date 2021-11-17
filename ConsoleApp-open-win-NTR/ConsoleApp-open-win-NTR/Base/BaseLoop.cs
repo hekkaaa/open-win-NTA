@@ -34,6 +34,8 @@ namespace ConsoleApp_open_win_NTR.Base
                 Console.ForegroundColor = ConsoleColor.Red; 
                 Console.WriteLine(startLoop.Info);
                 Console.ResetColor();
+                Console.WriteLine("Press Enter");
+                Console.ReadKey();
             }
 
         }

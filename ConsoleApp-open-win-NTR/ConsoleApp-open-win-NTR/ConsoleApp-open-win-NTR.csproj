@@ -4,7 +4,12 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>ConsoleApp_open_win_NTR</RootNamespace>
+    <ApplicationIcon>pcnetwork_102250.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="pcnetwork_102250.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Logfiles\" />

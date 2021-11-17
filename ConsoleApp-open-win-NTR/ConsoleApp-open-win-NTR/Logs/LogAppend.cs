@@ -7,7 +7,8 @@ namespace ConsoleApp_open_win_NTR.Logs
     {
         public static void Log(string logMessage)
         {
-            string path = @"..\..\..\..\ConsoleApp-open-win-NTR\Logfiles\Logs.txt";
+            //string path = @"..\..\..\..\ConsoleApp-open-win-NTR\Logfiles\Logs.txt"; // для отладки.
+            string path = @"Logs.txt";
             // This text is added only once to the file.
             if (!File.Exists(path))
             {

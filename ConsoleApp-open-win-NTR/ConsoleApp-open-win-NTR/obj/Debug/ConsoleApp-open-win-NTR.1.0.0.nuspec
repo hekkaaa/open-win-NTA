@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ConsoleApp-open-win-NTR</id>
+    <version>1.0.0</version>
+    <authors>ConsoleApp-open-win-NTR</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="ClassLibrary" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/pcnetwork_102250.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.runtimeconfig.json" target="lib\net6.0\ConsoleApp-open-win-NTR.runtimeconfig.json" />
+    <file src="D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net6.0\ConsoleApp-open-win-NTR.dll" target="lib\net6.0\ConsoleApp-open-win-NTR.dll" />
+    <file src="D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\pcnetwork_102250.ico" target="content\pcnetwork_102250.ico" />
+    <file src="D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\pcnetwork_102250.ico" target="contentFiles\any\net6.0\pcnetwork_102250.ico" />
+  </files>
+</package>

@@ -1,0 +1,7 @@
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Release\net6.0\publish\win-x64\ConsoleApp-open-win-NTR.exe
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Release\net6.0\publish\win-x64\ConsoleApp-open-win-NTR.dll
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Release\net6.0\publish\win-x64\ConsoleApp-open-win-NTR.deps.json
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Release\net6.0\publish\win-x64\ConsoleApp-open-win-NTR.runtimeconfig.json
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Release\net6.0\publish\win-x64\ConsoleApp-open-win-NTR.pdb
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Release\net6.0\publish\win-x64\ClassLibrary.dll
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Release\net6.0\publish\win-x64\ClassLibrary.pdb
