@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "ClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "ClassLibrary/1.0.0": {
-      "type": "project",
-      "path": "../../../../Develop/.Net/Test-Winform_open_win_NTR/ClassLibrary/ClassLibrary.csproj",
-      "msbuildProject": "../../../../Develop/.Net/Test-Winform_open_win_NTR/ClassLibrary/ClassLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "ClassLibrary >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\Laise\\.nuget\\packages\\": {},
@@ -57,11 +38,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\ClassLibrary\\ClassLibrary.csproj": {
-              "projectPath": "D:\\Develop\\.Net\\Test-Winform_open_win_NTR\\ClassLibrary\\ClassLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
