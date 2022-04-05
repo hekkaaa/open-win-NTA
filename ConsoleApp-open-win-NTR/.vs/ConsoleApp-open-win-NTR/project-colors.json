@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a219e155-a63d-4aae-9329-986e35070320": {
+      "ProjectGuid": "a219e155-a63d-4aae-9329-986e35070320",
+      "DisplayName": "ConsoleApp-open-win-NTR",
+      "ColorIndex": 0
+    },
+    "e9a327f4-0532-4fee-baf9-a50e5f582bbf": {
+      "ProjectGuid": "e9a327f4-0532-4fee-baf9-a50e5f582bbf",
+      "DisplayName": "ConsoleApp-open-win-NTR.Tests",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

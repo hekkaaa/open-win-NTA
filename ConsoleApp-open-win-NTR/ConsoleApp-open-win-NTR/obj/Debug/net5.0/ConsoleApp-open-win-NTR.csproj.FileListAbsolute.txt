@@ -1,0 +1,16 @@
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.AssemblyInfoInputs.cache
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.AssemblyInfo.cs
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.csproj.CoreCompileInputs.cache
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net5.0\ConsoleApp-open-win-NTR.exe
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net5.0\ConsoleApp-open-win-NTR.deps.json
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net5.0\ConsoleApp-open-win-NTR.runtimeconfig.json
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net5.0\ConsoleApp-open-win-NTR.runtimeconfig.dev.json
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net5.0\ConsoleApp-open-win-NTR.dll
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net5.0\ref\ConsoleApp-open-win-NTR.dll
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\bin\Debug\net5.0\ConsoleApp-open-win-NTR.pdb
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.dll
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ref\ConsoleApp-open-win-NTR.dll
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.pdb
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.genruntimeconfig.cache
+D:\GitWork\open-win-NTA\ConsoleApp-open-win-NTR\ConsoleApp-open-win-NTR\obj\Debug\net5.0\ConsoleApp-open-win-NTR.csproj.AssemblyReference.cache
